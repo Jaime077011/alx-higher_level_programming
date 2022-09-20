@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-string = "abcdefghijklmnopqrstuvwxyz"
-for l in string:
-    print(l, end="")
+for l in range (97,123):
+    print(chr(l), end="")
